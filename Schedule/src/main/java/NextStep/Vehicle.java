@@ -13,6 +13,9 @@ public class Vehicle {
         this.dateOfFabrication = dateOfFabrication;
     }
 
+    public Vehicle() {
+    }
+
     public String getModel() {
         return Model;
     }
